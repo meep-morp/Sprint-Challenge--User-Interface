@@ -88,11 +88,12 @@ header nav{
 }
 header nav a {
     text-decoration: none;
+    margin: 2%;
     color: black;
 }
 .logo{
     order: -1;
-    width: 80%;
+
 }
 .banner img{
     width:100%;
