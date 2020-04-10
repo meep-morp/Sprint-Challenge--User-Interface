@@ -102,6 +102,14 @@ header nav a:hover{
     order: -1;
 
 }
+/*Main Section*/
+.content{
+    margin: 2%;
+}
+.content h1{
+    text-align: center;
+}
+
 /*Footer*/
 
 footer {
