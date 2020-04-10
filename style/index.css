@@ -91,15 +91,16 @@ header nav a {
     margin: 2%;
     color: black;
 }
+header nav a:hover{
+    color: gray;
+    transition: 0.4s ease;
+}
 .logo{
     order: -1;
 
 }
-.banner img{
-    width:100%;
-}
 
-/*Header Image and Paragraphs*/
+/*Banner Image and Paragraphs*/
 
 .top-content {
     display: flex;
@@ -115,7 +116,9 @@ header nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.banner img{
+    width:100%;
+}
 
 /*Boxes*/
 
@@ -143,6 +146,10 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box:hover{
+    opacity: 50%;
+    transition: 0.5s ease;
 }
 .box1 {
     background:teal;
@@ -210,6 +217,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover{
+    color: gray;
+    transition: 0.4s ease;
 }
 
 /*Media Queries*/
