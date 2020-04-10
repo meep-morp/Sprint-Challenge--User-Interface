@@ -23,11 +23,16 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/*General Styles*/
+
 body {
 	line-height: 1;
 }
@@ -71,6 +76,10 @@ p {
     margin: 0 auto;
 }
 
+/*Nav Bar and Banner*/
+
+/*Header Image and Paragraphs*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +93,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/*Boxes*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +124,9 @@ p {
     justify-content: center;
 }
 
+
+/*Star Wars Ref Section*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +140,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*Footer*/
 
 footer {
     width: 100%;
